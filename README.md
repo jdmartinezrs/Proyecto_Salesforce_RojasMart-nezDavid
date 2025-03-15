@@ -34,6 +34,14 @@
 - Se crea un campo personalizado para el **Registro Mercantil**, donde se almacena la matrícula mercantil.
 - El **Correo Oficial** se registra en el campo predeterminado **Email**.
 
+### **Artículo 5. Organigrama empresarial establecido **
+
+- CEO
+- **Gerente de Ventas** → Administrador de Ventas, Ejecutivo de Ventas
+- **Gerente de Soporte** → Coordinador de Soporte, Técnico de Ensamblaje
+- **Gerente de Compras** → Ejecutivo de Compras, Coordinador de Logística
+
+
 **Activar múltiples monedas en Salesforce y configurar USD**
 
 para Lograr que el Capital Social sea $5,000,000 USD, se establece la taza de cambio con un valor de 4.000 ,  Las tasas de conversión se definen en relación con la moneda corporativa. Todas las tasas de conversión de monedas ya definidas en salesforce.com se modificarán adecuadamente para reflejar el cambio. selecciona USD.
