@@ -57,3 +57,115 @@ para Lograr que el Capital Social sea $5,000,000 USD, se establece la taza de ca
 
 Ahora, todas las conversiones de moneda toman el USD como referencia, 1 USD = 4,000 COP.
 
+
+# Definición de Objetos en Salesforce
+
+## 1. Users.csv
+**Objeto:** User (Objeto estándar de Salesforce)  
+
+| Campo      | Tipo                           | Descripción                      |
+|------------|--------------------------------|----------------------------------|
+| User_ID    | Texto (ID externo, único)     | Identificador único del usuario. |
+| Name       | Texto                          | Nombre completo del usuario.     |
+| Email      | Email                          | Correo electrónico.              |
+| Role       | Texto                          | Rol del usuario.                 |
+| Profile    | Texto                          | Perfil del usuario.              |
+| Department | Texto                          | Departamento.                     |
+| Active     | Casilla de verificación        | Indica si el usuario está activo.|
+
+---
+
+## 2. Roles_Profiles.csv
+**Objeto:** Role_Profile__c (Objeto personalizado)  
+
+| Campo | Tipo  | Descripción           |
+|-------|-------|-----------------------|
+| Role  | Texto | Rol del usuario.      |
+| Profile | Texto | Perfil del usuario. |
+
+---
+
+## 3. Accounts.csv
+**Objeto:** Account (Objeto estándar de Salesforce)  
+
+| Campo       | Tipo                        | Descripción                     |
+|-------------|-----------------------------|---------------------------------|
+| Account_ID  | Texto (ID externo, único)   | Identificador único de la empresa. |
+| Company     | Texto                        | Nombre de la empresa.          |
+| Email       | Email                        | Correo electrónico de la empresa. |
+
+---
+
+## 4. Contacts.csv
+**Objeto:** Contact (Objeto estándar de Salesforce)  
+
+| Campo       | Tipo                        | Descripción                     |
+|-------------|-----------------------------|---------------------------------|
+| Contact_ID  | Texto (ID externo, único)   | Identificador único del contacto. |
+| Name        | Texto                        | Nombre completo del contacto.  |
+| Account_ID  | Relación (Lookup con Account) | Relación con la empresa.       |
+| Email       | Email                        | Correo electrónico del contacto. |
+
+---
+
+## 5. Productos.csv
+**Objeto:** Producto__c (Objeto personalizado)  
+
+| Campo      | Tipo                        | Descripción                      |
+|------------|-----------------------------|----------------------------------|
+| Product_ID | Texto (ID externo, único)   | Identificador único del producto. |
+| Name       | Texto                        | Nombre del producto.            |
+| Category   | Texto                        | Categoría del producto.         |
+| Price      | Moneda                       | Precio del producto.            |
+| Stock      | Número                       | Cantidad en stock.              |
+
+---
+
+## 6. leads.csv
+**Objeto:** Lead (Objeto estándar de Salesforce)  
+
+| Campo      | Tipo                        | Descripción                     |
+|------------|-----------------------------|---------------------------------|
+| Lead_ID    | Texto (ID externo, único)   | Identificador único del lead.   |
+| Name       | Texto                        | Nombre completo del lead.       |
+| Email      | Email                        | Correo electrónico del lead.    |
+| Industry   | Texto                        | Industria del lead.             |
+| Phone      | Teléfono                     | Número de teléfono del lead.    |
+
+---
+
+## 7. Opportunities_clean.csv
+**Objeto:** Opportunity (Objeto estándar de Salesforce)  
+
+| Campo         | Tipo                        | Descripción                     |
+|--------------|-----------------------------|---------------------------------|
+| Opportunity_ID | Texto (ID externo, único) | Identificador único de la oportunidad. |
+| Account_ID   | Relación (Lookup con Account) | Relación con la empresa.       |
+| Name         | Texto                        | Nombre de la oportunidad.      |
+| Stage        | Texto                        | Etapa de la oportunidad.       |
+| Amount       | Moneda                       | Monto de la oportunidad.       |
+
+---
+
+## 8. Cases.csv
+**Objeto:** Case (Objeto estándar de Salesforce)  
+
+| Campo      | Tipo                        | Descripción                     |
+|------------|-----------------------------|---------------------------------|
+| Case_ID    | Texto (ID externo, único)   | Identificador único del caso.   |
+| Account_ID | Relación (Lookup con Account) | Relación con la empresa.       |
+| Subject    | Texto                        | Asunto del caso.               |
+| Priority   | Texto                        | Prioridad del caso.            |
+| Status     | Texto                        | Estado del caso.               |
+
+---
+
+## 9. stage_ventas.csv
+**Objeto:** Stage_Venta__c (Objeto personalizado)  
+
+| Campo        | Tipo                        | Descripción                      |
+|-------------|-----------------------------|----------------------------------|
+| Stage_ID    | Texto (ID externo, único)   | Identificador único de la etapa. |
+| Stage_Name  | Texto                        | Nombre de la etapa.              |
+| Probability | Número                       | Probabilidad de cierre.         |
+| Description | Texto largo                  | Descripción de la etapa.        |
