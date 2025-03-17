@@ -57,6 +57,14 @@ para Lograr que el Capital Social sea $5,000,000 USD, se establece la taza de ca
 
 Ahora, todas las conversiones de moneda toman el USD como referencia, 1 USD = 4,000 COP.
 
+# Configuración de impuestos
+1. Establece un campo en productos "Tax Rate" que almacena la tasa de impuestos, con un valor predeterminado del 19%.
+2. Se crea un campo de tipo fórmula que calcula automáticamente el precio del producto con impuestos incluidos.
+
+`Price__c + (Price__c * Tax_Rate__c / 100)`
+
+ El campo "Precio Con Impuestos" refleja el precio con impuestos calculado en base al 19%.
+
 
 # Definición de Objetos en Salesforce
 
