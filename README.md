@@ -169,3 +169,17 @@ Ahora, todas las conversiones de moneda toman el USD como referencia, 1 USD = 4,
 | Stage_Name  | Texto                        | Nombre de la etapa.              |
 | Probability | Número                       | Probabilidad de cierre.         |
 | Description | Texto largo                  | Descripción de la etapa.        |
+
+
+## Usuarios creados con sus respectivos roles y perfiles 
+
+| Action  | Full Name          | Alias  | Username                                        | Role                        | Active  | Profile                           |
+|---------|-------------------|--------|------------------------------------------------|-----------------------------|---------|-----------------------------------|
+User                |
+| Edit    | Rojas, David      | droja  | admvenconstrufurgo@gmail.com                   | Administrador de Ventas      | Checked | Custom: Sales Profile            |
+| Edit    | Montalvo, Sam     | smont  | ejecutivocomprasconstrufurgo@gmail.com        | Ejecutivo de Compras         | Checked | Procurement Specialist            |
+| Edit    | Furgo, Constru    | CFurg  | construfurgo9@gmail.com                        | CEO                         | Checked | System Administrator              |
+| Edit    | Schifrin, James   | jschi  | tecnicoensamblajeconstrufurgo@gmail.com        | Técnico de Ensamblaje       | Checked | Technical_Support                 |
+
+
+
