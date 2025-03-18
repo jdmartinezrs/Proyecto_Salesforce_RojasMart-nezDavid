@@ -1,6 +1,11 @@
+ ![Logo](https://i.pinimg.com/1200x/7f/45/95/7f4595bfe7e80086c681bc22ddd08a94.jpg)
+ 
+ 
  **Capítulo II: Estructura Organizacional**
 
 
+## 📌 Introducción
+Breve resumen sobre la implementación de Salesforce en ConstruFurgo. 
 
 ### **Artículo 3. Información Legal de la Empresa**
 
@@ -34,6 +39,11 @@
 - Se crea un campo personalizado para el **Registro Mercantil**, donde se almacena la matrícula mercantil.
 - El **Correo Oficial** se registra en el campo predeterminado **Email**.
 
+
+## 📌 Configuración General
+- Información de la empresa registrada en Salesforce.
+- Jerarquía de roles y permisos.
+​
 ### **Artículo 5. Organigrama empresarial establecido **
 
 - CEO
@@ -71,6 +81,19 @@
 **Activar múltiples monedas en Salesforce y configurar USD**
 
 para Lograr que el Capital Social sea $5,000,000 USD, se establece la taza de cambio con un valor de 4.000 ,  Las tasas de conversión se definen en relación con la moneda corporativa. Todas las tasas de conversión de monedas ya definidas en salesforce.com se modificarán adecuadamente para reflejar el cambio. selecciona USD.
+
+## Usuarios creados con sus respectivos roles y perfiles 
+
+| Action  | Full Name          | Alias  | Username                                        | Role                        | Active  | Profile                           |
+|---------|-------------------|--------|------------------------------------------------|-----------------------------|---------|-----------------------------------|
+| Edit    | Rojas, David      | droja  | admvenconstrufurgo@gmail.com                   | Administrador de Ventas      | Checked | Custom: Sales Profile            |
+| Edit    | Montalvo, Sam     | smont  | ejecutivocomprasconstrufurgo@gmail.com        | Ejecutivo de Compras         | Checked | Procurement Specialist            |
+| Edit    | Furgo, Constru    | CFurg  | construfurgo9@gmail.com                        | CEO                         | Checked | System Administrator              |
+| Edit    | Schifrin, James   | jschi  | tecnicoensamblajeconstrufurgo@gmail.com        | Técnico de Ensamblaje       | Checked | Technical_Support                 |
+
+
+## Asignación de permisos por perfil y creación de Permission Sets para usuarios
+
 
 | ![img](https://contrufurgo-dev-ed.develop.my.salesforce.com/img/s.gif)Active Currencies |      |      |
 | ------------------------------------------------------------ | ---- | ---- |
@@ -204,15 +227,26 @@ Ahora, todas las conversiones de moneda toman el USD como referencia, 1 USD = 4,
 | Probability | Número                       | Probabilidad de cierre.         |
 | Description | Texto largo                  | Descripción de la etapa.        |
 
+#  Términos de pago dentro del CRM
 
-## Usuarios creados con sus respectivos roles y perfiles 
+Para optimizar la gestión de facturación en Salesforce, se implementaron automatizaciones que facilitan el control de términos de pago y vencimientos. Estas soluciones incluyen la aprobación de facturas con crédito a 60 días, notificaciones para crédito a 30 días y alertas automáticas para facturas próximas a vencer. Con estas mejoras, se agiliza la comunicación con el equipo de ventas y se garantiza un mejor seguimiento de los plazos de pago.
 
-| Action  | Full Name          | Alias  | Username                                        | Role                        | Active  | Profile                           |
-|---------|-------------------|--------|------------------------------------------------|-----------------------------|---------|-----------------------------------|
-| Edit    | Rojas, David      | droja  | admvenconstrufurgo@gmail.com                   | Administrador de Ventas      | Checked | Custom: Sales Profile            |
-| Edit    | Montalvo, Sam     | smont  | ejecutivocomprasconstrufurgo@gmail.com        | Ejecutivo de Compras         | Checked | Procurement Specialist            |
-| Edit    | Furgo, Constru    | CFurg  | construfurgo9@gmail.com                        | CEO                         | Checked | System Administrator              |
-| Edit    | Schifrin, James   | jschi  | tecnicoensamblajeconstrufurgo@gmail.com        | Técnico de Ensamblaje       | Checked | Technical_Support                 |
+ **Crédito a 60 Días**
+Se creó un proceso de aprobación en Salesforce para gestionar las facturas con crédito a 60 días. Se definieron los criterios de entrada para que solo las facturas con esta condición sean enviadas a aprobación. Para los rechazos, se creó una tarea para notificar al equipo de ventas sobre el rechazo, facilitando la comunicación con el cliente.
+
+![Logo](https://i.pinimg.com/1200x/82/3b/91/823b919b356a9430a50b1f95c64009fd.jpg)
+
+**Crédito a 30 Días**
+el flujo enviará un correo al propietario de la factura cada vez que esta sea creada o actualizada con los términos de pago "Crédito a 30 días" y el estado "Pending"
+
+![Logo](https://i.pinimg.com/1200x/50/c3/eb/50c3eb04ad3ccac2f093dbc1057021a0.jpg)
+
+**Alerta de Factura Próxima a Vencer**
+En este proceso, se configura un Flow para automatizar el envío de alertas cuando una factura está próxima a vencer. Definimos una condición:
+Se configuró una fórmula para calcular si el Due Date de la factura está a 5 días o menos.
+
+`  DATETIMEVALUE(TEXT(TODAY() + 5) & " 00:00:00") `
 
 
+![Logo](https://i.pinimg.com/1200x/c1/a9/97/c1a997ed111e116bf3f2abdfc567637b.jpg)
 
