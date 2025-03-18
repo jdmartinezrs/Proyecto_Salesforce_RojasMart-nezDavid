@@ -42,6 +42,32 @@
 - **Gerente de Compras** → Ejecutivo de Compras, Coordinador de Logística
 
 
+### **Artículo 5. Organigrama empresarial establecido **
+
+![Logo](https://i.pinimg.com/1200x/35/1b/61/351b611ceca843e61e904f7ef9a9b08c.jpg)
+
+# Asignación de Permisos por Usuario
+
+## Permisos por Perfil
+
+| **Usuario**             | **Perfil**                 | **Funciones Principales**                    | **Objetos**                                                                                      | **Permisos Adicionales**                                                     |
+|-------------------------|----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Rojas, David**         | Custom: Sales Profile      | Gestión de leads, oportunidades y ventas.    | **Leads:** Lectura, Escritura, Creación, Eliminación. <br> **Opportunities:** Lectura, Escritura, Creación, Eliminación. <br> **Accounts:** Lectura, Escritura. <br> **Contacts:** Lectura, Escritura. <br> **Producto__c:** Lectura. | Acceso a Dashboards de Ventas. <br> Permiso para convertir leads en oportunidades. <br> Permiso para crear y enviar propuestas comerciales. |
+| **Montalvo, Sam**        | Procurement Specialist     | Gestión de compras y proveedores.            | **Accounts:** Lectura, Escritura (solo para proveedores). <br> **Producto__c:** Lectura, Escritura. <br> **Stage_Venta__c:** Lectura. | Acceso a Panel de Compras y Proveedores. <br> Permiso para crear órdenes de compra. |
+| **Furgo, Constru**       | System Administrator       | Supervisión general de la empresa.           | **Todos los objetos:** Lectura, Escritura, Creación, Eliminación.                               | Acceso a todos los Dashboards y Reportes. <br> Permiso para realizar auditorías y cambios de configuración. <br> Permiso para restaurar datos (solo en casos críticos). |
+| **Schifrin, James**      | Technical_Support          | Soporte técnico y resolución de casos.       | **Cases:** Lectura, Escritura, Creación. <br> **Accounts:** Lectura. <br> **Contacts:** Lectura. | Acceso a Reporte de Casos de Soporte. <br> Permiso para cerrar casos resueltos. |
+
+---
+
+## Permission Sets
+
+| **Permission Set**             | **Asignado a**          | **Permisos**                                                                                         |
+|---------------------------------|-------------------------|------------------------------------------------------------------------------------------------------|
+| **Sales_Permission_Set**        | Rojas, David            | Convertir Leads. <br> Enviar propuestas comerciales. <br> Acceso a Dashboards de Ventas.              |
+| **Procurement_Permission_Set**  | Montalvo, Sam           | Crear órdenes de compra. <br> Acceso a Panel de Compras y Proveedores.                              |
+| **Support_Permission_Set**      | Schifrin, James         | Acceso a Reporte de Casos de Soporte.                                                                |
+
+
 **Activar múltiples monedas en Salesforce y configurar USD**
 
 para Lograr que el Capital Social sea $5,000,000 USD, se establece la taza de cambio con un valor de 4.000 ,  Las tasas de conversión se definen en relación con la moneda corporativa. Todas las tasas de conversión de monedas ya definidas en salesforce.com se modificarán adecuadamente para reflejar el cambio. selecciona USD.
@@ -183,7 +209,6 @@ Ahora, todas las conversiones de moneda toman el USD como referencia, 1 USD = 4,
 
 | Action  | Full Name          | Alias  | Username                                        | Role                        | Active  | Profile                           |
 |---------|-------------------|--------|------------------------------------------------|-----------------------------|---------|-----------------------------------|
-User                |
 | Edit    | Rojas, David      | droja  | admvenconstrufurgo@gmail.com                   | Administrador de Ventas      | Checked | Custom: Sales Profile            |
 | Edit    | Montalvo, Sam     | smont  | ejecutivocomprasconstrufurgo@gmail.com        | Ejecutivo de Compras         | Checked | Procurement Specialist            |
 | Edit    | Furgo, Constru    | CFurg  | construfurgo9@gmail.com                        | CEO                         | Checked | System Administrator              |
