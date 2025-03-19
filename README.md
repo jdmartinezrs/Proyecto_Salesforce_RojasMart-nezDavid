@@ -277,3 +277,26 @@ Se ha configurado una suscripción mensual al reporte de accesos fallidos en Sal
 El reporte de "Permission Set Assignments" permite auditar los permisos asignados a los usuarios en Salesforce, mostrando quién tiene acceso a qué funciones, cuándo se otorgaron o modificaron los permisos y qué tipo de acceso se les concedió. Al igual que el reporte de accesos fallidos, el Director Ejecutivo está suscrito a este informe y lo recibirá mensualmente, lo que garantiza una supervisión continua sobre la configuración de seguridad y los cambios en los permisos de usuario.
 
 ![Logo](https://i.pinimg.com/1200x/c3/80/62/c38062d74b8048f61a2cadb920b548d2.jpg)
+
+ **Implementación de procesos de validación de datos en Salesforce:**
+
+  **Correos electrónicos deben cumplir con un formato estandarizado:**
+
+La validación implementada garantiza que los correos electrónicos ingresados sigan un formato estándar, evitando errores y asegurando la calidad de los datos. Mediante una Regla de Validación, el sistema detecta correos con formatos incorrectos y bloquea su ingreso, mostrando un mensaje de error  Esto mejora la integridad de la base de datos y optimiza los procesos, al garantizar que solo se almacenen direcciones de correo válidas.
+
+![Logo]( https://i.pinimg.com/1200x/66/29/12/662912de90a8d40915c4316cfc8b635c.jpg)
+
+**Teléfonos deben contener el código de país y estar estructurados en un formato válido:**
+
+Esta validación en garantiza que los números de teléfono ingresados deben contener el código de país y un formato específico (+1-XXX-XXXX).De lo contrario se muestra un mensaje de error, evitando que se guarde un dato incorrecto.
+
+![Logo](https://i.pinimg.com/1200x/b4/26/ec/b426ecad454c1c2f7d7fe6f8d1e8bf1b.jpg)
+
+
+**Los registros duplicados serán bloqueados automáticamente con un proceso de de duplicación:**
+
+Configuración de una Matching Rule para evitar la creación de Leads duplicados por email, utilizando una coincidencia exacta en el campo Email.  implementación de una Duplicate Rule vinculada a esta regla, estableciendo la opción de bloquear la creación de registros duplicados o mostrar una alerta en caso de coincidencia. Activación de ambas reglas para garantizar la integridad de los datos en el objeto de Leads
+
+![Logo](https://i.pinimg.com/1200x/62/18/d0/6218d0162f12a9d577b0aeb5b1b92b55.jpg)
+
+
