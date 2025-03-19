@@ -300,3 +300,19 @@ Configuración de una Matching Rule para evitar la creación de Leads duplicados
 ![Logo](https://i.pinimg.com/1200x/62/18/d0/6218d0162f12a9d577b0aeb5b1b92b55.jpg)
 
 
+9️⃣ **Creación de un mecanismo de respaldo y recuperación de datos:**
+
+**Se deben realizar respaldos automáticos cada 24 horas.**
+
+En DataLoader.io, el proceso permite configurar un respaldo automático de datos desde Salesforce. Para ello, se crea una tarea de exportación seleccionando el objeto que se desea respaldar, en este caso "Login_Histories", y eligiendo los campos específicos que se van a exportar. Luego, se configura la programación del respaldo, eligiendo que se ejecute de manera diaria a una hora específica. Finalmente, la tarea se guarda y se ejecuta, asegurando que los respaldos se realicen automáticamente de acuerdo con el horario establecido.
+
+![Logo](https://i.pinimg.com/1200x/22/08/e2/2208e2b98999e047a9ec803ae189a827.jpg)
+
+En la configuración de respaldo, se debe ingresar una dirección de correo electrónico donde se enviarán los datos exportados. A esta dirección llegará una notificación con un enlace que permitirá descargar los datos de "Login_Histories" en formato CSV.
+![Logo](https://i.pinimg.com/1200x/4b/d7/ea/4bd7ead6eeec251833aa84a26fff1b5b.jpg)
+
+
+
+
+
+
