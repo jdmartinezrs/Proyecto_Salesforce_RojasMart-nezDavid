@@ -1,6 +1,5 @@
  ![Logo](https://i.pinimg.com/1200x/7f/45/95/7f4595bfe7e80086c681bc22ddd08a94.jpg)
  
- 
  **Capítulo II: Estructura Organizacional**
 
 
@@ -250,3 +249,31 @@ Se configuró una fórmula para calcular si el Due Date de la factura está a 5 
 
 ![Logo](https://i.pinimg.com/1200x/c1/a9/97/c1a997ed111e116bf3f2abdfc567637b.jpg)
 
+
+## 📌 Seguridad y Accesos
+- Configuración de auditoría de accesos con alertas automáticas.
+- Restricciones por perfil y rol detalladas con permisos específicos.
+- Manejo de sesiones con reglas estrictas de expiración y control de actividad.
+
+
+**Registros de accesos fallidos con detalles de IP y usuario**
+
+Para acceder a la información de "Login Histories" se crea un custom report type, este permite realizar un reporte con los registros de accesos fallidos, detalles de ip y usuarios
+
+![Logo](https://i.pinimg.com/1200x/e7/2c/fb/e72cfbc2a802061e6adf71bf63e7f237.jpg)
+
+
+El reporte generado  recopila todos los intentos de inicio de sesión fallidos registrados en el historial de accesos, sin restricciones de fecha, ya que el filtro de "Created Date" se ha establecido en "All Time". Se han excluido los accesos exitosos mediante el filtro "Status ≠ Success", permitiendo así visualizar únicamente los intentos fallidos. Esto facilita la detección de posibles intentos de acceso no autorizado, errores de autenticación recurrentes y patrones de intentos fallidos por usuario o dirección IP. El reporte es útil para auditorías de seguridad y monitoreo de accesos, proporcionando información clave como la dirección IP de origen, la cuenta de usuario involucrada, la fecha y hora del intento, y la razón del fallo, como contraseñas incorrectas o dispositivos no activados.
+
+![Logo](https://i.pinimg.com/1200x/60/b0/24/60b024fd29ae06be83819df32d506706.jpg)
+
+Se ha configurado una suscripción mensual al reporte de accesos fallidos en Salesforce, asegurando que el Director Ejecutivo reciba automáticamente un informe actualizado con los intentos de inicio de sesión no exitosos.
+
+![Logo](https://i.pinimg.com/1200x/1e/7c/19/1e7c191b5027f26da4d4365ac13efafb.jpg)
+
+
+**Cambios en la configuración de seguridad que afecten roles y permisos**
+
+El reporte de "Permission Set Assignments" permite auditar los permisos asignados a los usuarios en Salesforce, mostrando quién tiene acceso a qué funciones, cuándo se otorgaron o modificaron los permisos y qué tipo de acceso se les concedió. Al igual que el reporte de accesos fallidos, el Director Ejecutivo está suscrito a este informe y lo recibirá mensualmente, lo que garantiza una supervisión continua sobre la configuración de seguridad y los cambios en los permisos de usuario.
+
+![Logo](https://i.pinimg.com/1200x/c3/80/62/c38062d74b8048f61a2cadb920b548d2.jpg)
