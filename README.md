@@ -45,6 +45,8 @@ Breve resumen sobre la implementación de Salesforce en ConstruFurgo.
 ​
 ### **Artículo 5. Organigrama empresarial establecido **
 
+![Logo](https://i.pinimg.com/736x/97/94/f3/9794f3d68ae5b7828fb7d87e1b3ba3e2.jpg)
+
 - CEO
 - **Gerente de Ventas** → Administrador de Ventas, Ejecutivo de Ventas
 - **Gerente de Soporte** → Coordinador de Soporte, Técnico de Ensamblaje
@@ -308,11 +310,66 @@ En DataLoader.io, el proceso permite configurar un respaldo automático de datos
 
 ![Logo](https://i.pinimg.com/1200x/22/08/e2/2208e2b98999e047a9ec803ae189a827.jpg)
 
-En la configuración de respaldo, se debe ingresar una dirección de correo electrónico donde se enviarán los datos exportados. A esta dirección llegará una notificación con un enlace que permitirá descargar los datos de "Login_Histories" en formato CSV.
+En la configuración de respaldo, se debe ingresar una dirección de correo electrónico donde se enviarán los datos exportados. A esta dirección llegará una notificación, con enlace que indica el numero de rows exportados "succesess" que permitirá descargar los datos de "Login_Histories" en formato CSV.
 ![Logo](https://i.pinimg.com/1200x/4b/d7/ea/4bd7ead6eeec251833aa84a26fff1b5b.jpg)
 
 
 
+# Artículo 14. Aplicaciones Lightning para Roles Específicos
+Se requiere la creación de aplicaciones personalizadas en Salesforce Lightning para cada perfil organizacional:
+1️⃣ Aplicación de Ventas (Usuarios: CEO, Gerente de Ventas,Gerente de Compras):
+
+![Logo](https://i.pinimg.com/1200x/d4/dd/bf/d4ddbf5c2b07e3e7df61a1d6fb0cf1a6.jpg)
+
+![Logo](https://i.pinimg.com/1200x/bd/0f/42/bd0f42c4f246965760eef623fdaf6cd1.jpg)
+
+2️⃣Aplicación de Soporte (Usuarios: CEO, Gerente de Soporte):
+
+![Logo](https://i.pinimg.com/1200x/05/94/7c/05947c0ab39457a2161729cce76162a2.jpg)
+
+![Logo](https://i.pinimg.com/1200x/13/57/0c/13570c9cfabdbc939ec2fd4bcf2a1725.jpg)
 
 
+
+# Artículo 13. Dashboards y Reportes en Salesforce
+Se deben crear los siguientes paneles y reportes con accesos según rol:
+ 1️⃣ Dashboard de Ventas:
+![Logo](https://i.pinimg.com/1200x/38/c6/59/38c659534c66b13f95cde813aaeb1877.jpg)
+1.Oportunidades ganadas y perdidas, filtradas por su estado 
+2.Ingresos proyectados: Basados en las oportunidades en "Propuesta Enviada" y "Negociación", considerando su probabilidad de cierre.
+Ingresos alcanzados: Basados en las oportunidades en "Cierre Ganado".
+
+**(Acceso: CEO, Gerente de Ventas)**
+![Logo](https://i.pinimg.com/1200x/d5/d5/e2/d5d5e21078590f182e75b31bc070386f.jpg)
+
+2️⃣ Reporte de Casos de Soporte :
+
+Casos abiertos vs. casos cerrados.
+
+![Logo](https://i.pinimg.com/1200x/08/c7/4f/08c74f7e7048c51caf7d67d5340fede3.jpg)
+
+**(Acceso: CEO, Gerente de Soporte)**
+![Logo](https://i.pinimg.com/1200x/0b/24/e4/0b24e416b7539a920e8f91f08eab439f.jpg)
+
+
+3️⃣ Panel de Compras y Proveedores
+
+Historial de órdenes de compra.
+Compras completadas vs Compras no culminadas.
+
+![Logo](https://i.pinimg.com/1200x/07/f6/8a/07f68a0f712a134d026146212cedda7d.jpg)
+
+**(Acceso: CEO, Gerente de Compras)**
+
+![Logo](https://i.pinimg.com/1200x/02/90/1f/02901fa9d1117b43165e983fda2fa73c.jpg)
+
+
+📌 Capítulo IV: Procesos Automatizados y Reportes en Salesforce
+
+**Artículo 12. Procesos Automatizados en la Plataforma**
+## ConstruFurgo requiere la automatización de los siguientes procesos en Salesforce:
+
+## Asignación Automática de Leads
+![Logo](https://i.pinimg.com/1200x/b4/e7/8c/b4e78c7d0db75a8ba85d56951cfb892a.jpg)
+Se enviará una notificación automática al Gerente de Ventas.
 

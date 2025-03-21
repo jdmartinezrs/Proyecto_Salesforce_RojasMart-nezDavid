@@ -1,0 +1,101 @@
+Order_ID,Account_ID,Fecha de Orden,Total de Compra,Estado,Canal de Compra
+ORD-001,6,2024-03-13,1355,Completada,Llamada
+ORD-002,19,2024-03-07,3350,Completada,Aplicación Móvil
+ORD-003,8,2024-03-17,3368,Completada,Email
+ORD-004,15,2024-03-24,1547,Pendiente,Email
+ORD-005,6,2024-03-29,3434,Completada,Llamada
+ORD-006,11,2024-03-21,2502,Pendiente,Email
+ORD-007,8,2024-03-08,1380,Completada,Email
+ORD-008,15,2024-03-21,4677,No Culminada,Llamada
+ORD-009,16,2024-03-17,4708,No Culminada,Llamada
+ORD-010,6,2024-03-05,2412,No Culminada,Aplicación Móvil
+ORD-011,15,2024-03-10,4175,No Culminada,Llamada
+ORD-012,20,2024-03-03,4091,Completada,Online
+ORD-013,18,2024-03-29,1018,Pendiente,Aplicación Móvil
+ORD-014,11,2024-03-25,2647,Completada,Aplicación Móvil
+ORD-015,16,2024-03-25,3186,Completada,Llamada
+ORD-016,18,2024-03-11,2902,Completada,Aplicación Móvil
+ORD-017,11,2024-03-25,2998,No Culminada,Aplicación Móvil
+ORD-018,18,2024-03-01,3868,No Culminada,Email
+ORD-019,11,2024-03-15,1630,No Culminada,Aplicación Móvil
+ORD-020,19,2024-03-14,2470,Completada,Aplicación Móvil
+ORD-021,10,2024-03-12,4427,No Culminada,Online
+ORD-022,22,2024-03-09,2150,Completada,Aplicación Móvil
+ORD-023,20,2024-03-16,2023,Pendiente,Llamada
+ORD-024,22,2024-03-22,2982,Completada,Llamada
+ORD-025,6,2024-03-14,4651,Pendiente,Aplicación Móvil
+ORD-026,8,2024-03-04,3619,Completada,Email
+ORD-027,11,2024-03-27,3532,No Culminada,Aplicación Móvil
+ORD-028,6,2024-03-07,2222,No Culminada,Email
+ORD-029,11,2024-03-07,4068,No Culminada,Llamada
+ORD-030,15,2024-03-05,3108,Pendiente,Online
+ORD-031,15,2024-03-08,2807,Completada,Aplicación Móvil
+ORD-032,18,2024-03-16,4977,Completada,Llamada
+ORD-033,1,2024-03-19,2349,Completada,Aplicación Móvil
+ORD-034,1,2024-03-15,1531,Completada,Email
+ORD-035,1,2024-03-19,4884,No Culminada,Aplicación Móvil
+ORD-036,19,2024-03-04,2756,No Culminada,Llamada
+ORD-037,22,2024-03-07,4607,No Culminada,Llamada
+ORD-038,11,2024-03-24,3076,Completada,Online
+ORD-039,11,2024-03-30,2426,Completada,Email
+ORD-040,11,2024-03-15,2168,No Culminada,Email
+ORD-041,22,2024-03-22,1507,Completada,Aplicación Móvil
+ORD-042,18,2024-03-21,2610,Completada,Aplicación Móvil
+ORD-043,20,2024-03-17,2063,Completada,Aplicación Móvil
+ORD-044,13,2024-03-02,4431,Completada,Email
+ORD-045,15,2024-03-16,2193,Completada,Aplicación Móvil
+ORD-046,16,2024-03-24,2633,Completada,Aplicación Móvil
+ORD-047,22,2024-03-11,4213,Completada,Aplicación Móvil
+ORD-048,20,2024-03-30,1091,Completada,Online
+ORD-049,6,2024-03-01,1909,Completada,Email
+ORD-050,18,2024-03-25,2389,Completada,Aplicación Móvil
+ORD-051,6,2024-03-26,2422,Completada,Online
+ORD-052,10,2024-03-22,2913,Pendiente,Online
+ORD-053,11,2024-03-28,1823,Completada,Llamada
+ORD-054,10,2024-03-16,3611,Completada,Online
+ORD-055,15,2024-03-13,4062,Pendiente,Online
+ORD-056,20,2024-03-09,3167,No Culminada,Online
+ORD-057,11,2024-03-23,1613,Completada,Email
+ORD-058,1,2024-03-26,2369,Completada,Llamada
+ORD-059,18,2024-03-06,1303,Pendiente,Online
+ORD-060,22,2024-03-12,3310,Completada,Aplicación Móvil
+ORD-061,16,2024-03-14,3981,Completada,Online
+ORD-062,10,2024-03-09,2921,No Culminada,Llamada
+ORD-063,6,2024-03-25,2832,No Culminada,Llamada
+ORD-064,6,2024-03-22,3282,No Culminada,Email
+ORD-065,10,2024-03-09,3943,Completada,Aplicación Móvil
+ORD-066,18,2024-03-27,1655,Completada,Aplicación Móvil
+ORD-067,1,2024-03-29,2954,Completada,Email
+ORD-068,10,2024-03-29,1659,Completada,Llamada
+ORD-069,15,2024-03-19,3014,Completada,Online
+ORD-070,6,2024-03-22,4244,Completada,Aplicación Móvil
+ORD-071,10,2024-03-11,1208,Completada,Aplicación Móvil
+ORD-072,20,2024-03-31,4022,Completada,Email
+ORD-073,13,2024-03-12,3887,Completada,Online
+ORD-074,8,2024-03-29,1052,Completada,Email
+ORD-075,1,2024-03-17,3449,Completada,Llamada
+ORD-076,11,2024-03-18,4957,Completada,Llamada
+ORD-077,11,2024-03-29,3151,Completada,Llamada
+ORD-078,15,2024-03-01,1577,No Culminada,Email
+ORD-079,16,2024-03-17,1728,Completada,Llamada
+ORD-080,6,2024-03-29,1538,Completada,Llamada
+ORD-081,10,2024-03-20,4460,Completada,Llamada
+ORD-082,22,2024-03-29,2494,Completada,Email
+ORD-083,20,2024-03-02,4677,Completada,Llamada
+ORD-084,6,2024-03-03,1278,No Culminada,Email
+ORD-085,15,2024-03-13,3606,Completada,Email
+ORD-086,22,2024-03-08,2252,Pendiente,Email
+ORD-087,15,2024-03-15,3308,Completada,Online
+ORD-088,11,2024-03-30,4283,Completada,Email
+ORD-089,13,2024-03-19,4872,No Culminada,Online
+ORD-090,22,2024-03-31,4459,Completada,Aplicación Móvil
+ORD-091,20,2024-03-21,3564,No Culminada,Online
+ORD-092,8,2024-03-03,1564,Pendiente,Online
+ORD-093,16,2024-03-09,2373,Completada,Email
+ORD-094,1,2024-03-13,1073,Completada,Online
+ORD-095,10,2024-03-18,1866,Completada,Online
+ORD-096,15,2024-03-27,3600,Pendiente,Online
+ORD-097,20,2024-03-05,1119,Completada,Online
+ORD-098,13,2024-03-14,1854,Completada,Llamada
+ORD-099,15,2024-03-17,4088,Pendiente,Online
+ORD-100,10,2024-03-01,2966,Completada,Aplicación Móvil

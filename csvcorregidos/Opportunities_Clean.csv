@@ -1,0 +1,701 @@
+Opportunity_ID,Account_ID,Name,Stage,Amount
+1,12,Oportunidad 1,Cierre Ganado,33707
+2,3,Oportunidad 2,Cierre Perdido,48140
+3,21,Oportunidad 3,Negociación,39276
+4,15,Oportunidad 4,Prospección,41691
+5,8,Oportunidad 5,Prospección,16110
+6,13,Oportunidad 6,Cierre Ganado,16821
+7,25,Oportunidad 7,Propuesta Enviada,42010
+8,24,Oportunidad 8,Calificación,15891
+9,11,Oportunidad 9,Calificación,27341
+10,13,Oportunidad 10,Prospección,24256
+11,20,Oportunidad 11,Calificación,17933
+12,12,Oportunidad 12,Negociación,34502
+13,15,Oportunidad 13,Negociación,13371
+14,13,Oportunidad 14,Prospección,19902
+15,3,Oportunidad 15,Propuesta Enviada,48676
+16,19,Oportunidad 16,Prospección,18731
+17,22,Oportunidad 17,Calificación,17786
+18,7,Oportunidad 18,Prospección,25807
+19,19,Oportunidad 19,Cierre Ganado,29658
+20,12,Oportunidad 20,Propuesta Enviada,27814
+21,9,Oportunidad 21,Calificación,33703
+22,2,Oportunidad 22,Cierre Perdido,49929
+23,15,Oportunidad 23,Calificación,13323
+24,25,Oportunidad 24,Propuesta Enviada,34896
+25,16,Oportunidad 25,Negociación,43823
+26,18,Oportunidad 26,Propuesta Enviada,49330
+27,17,Oportunidad 27,Calificación,30549
+28,7,Oportunidad 28,Negociación,19415
+29,16,Oportunidad 29,Cierre Ganado,34890
+30,24,Oportunidad 30,Negociación,45265
+31,19,Oportunidad 31,Propuesta Enviada,24538
+32,13,Oportunidad 32,Prospección,47271
+33,5,Oportunidad 33,Propuesta Enviada,23452
+34,16,Oportunidad 34,Calificación,23850
+35,6,Oportunidad 35,Prospección,15639
+36,23,Oportunidad 36,Negociación,42980
+37,24,Oportunidad 37,Prospección,37518
+38,23,Oportunidad 38,Cierre Perdido,14545
+39,24,Oportunidad 39,Cierre Ganado,17445
+40,18,Oportunidad 40,Negociación,30953
+41,16,Oportunidad 41,Cierre Ganado,14053
+42,24,Oportunidad 42,Calificación,10487
+43,21,Oportunidad 43,Cierre Perdido,42573
+44,18,Oportunidad 44,Cierre Perdido,39937
+45,3,Oportunidad 45,Negociación,23947
+46,11,Oportunidad 46,Cierre Ganado,10284
+47,9,Oportunidad 47,Cierre Perdido,35438
+48,4,Oportunidad 48,Cierre Perdido,34114
+49,11,Oportunidad 49,Negociación,33765
+50,24,Oportunidad 50,Negociación,24226
+51,18,Oportunidad 51,Cierre Perdido,10054
+52,24,Oportunidad 52,Cierre Perdido,17646
+53,1,Oportunidad 53,Cierre Perdido,29664
+54,7,Oportunidad 54,Prospección,20510
+55,14,Oportunidad 55,Cierre Perdido,24667
+56,15,Oportunidad 56,Calificación,49385
+57,9,Oportunidad 57,Propuesta Enviada,28886
+58,18,Oportunidad 58,Negociación,44024
+59,22,Oportunidad 59,Calificación,21102
+60,11,Oportunidad 60,Cierre Perdido,33383
+61,9,Oportunidad 61,Cierre Ganado,14278
+62,25,Oportunidad 62,Negociación,12858
+63,22,Oportunidad 63,Negociación,33851
+64,3,Oportunidad 64,Prospección,38926
+65,18,Oportunidad 65,Calificación,24230
+66,10,Oportunidad 66,Prospección,15194
+67,4,Oportunidad 67,Cierre Perdido,12093
+68,10,Oportunidad 68,Cierre Ganado,46448
+69,6,Oportunidad 69,Propuesta Enviada,28648
+70,24,Oportunidad 70,Calificación,43838
+71,1,Oportunidad 71,Negociación,22684
+72,4,Oportunidad 72,Propuesta Enviada,40309
+73,21,Oportunidad 73,Negociación,11607
+74,23,Oportunidad 74,Calificación,14851
+75,23,Oportunidad 75,Cierre Ganado,15905
+76,20,Oportunidad 76,Cierre Ganado,24092
+77,1,Oportunidad 77,Prospección,20878
+78,24,Oportunidad 78,Cierre Perdido,43887
+79,19,Oportunidad 79,Cierre Perdido,29328
+80,5,Oportunidad 80,Propuesta Enviada,12320
+81,11,Oportunidad 81,Negociación,35218
+82,16,Oportunidad 82,Prospección,47576
+83,12,Oportunidad 83,Negociación,46960
+84,14,Oportunidad 84,Propuesta Enviada,10138
+85,13,Oportunidad 85,Propuesta Enviada,43508
+86,23,Oportunidad 86,Prospección,15053
+87,17,Oportunidad 87,Cierre Ganado,45987
+88,5,Oportunidad 88,Propuesta Enviada,14182
+89,13,Oportunidad 89,Negociación,35983
+90,5,Oportunidad 90,Prospección,49270
+91,6,Oportunidad 91,Calificación,14397
+92,23,Oportunidad 92,Propuesta Enviada,33867
+93,17,Oportunidad 93,Cierre Perdido,36105
+94,13,Oportunidad 94,Calificación,16031
+95,3,Oportunidad 95,Prospección,34946
+96,22,Oportunidad 96,Negociación,18608
+97,22,Oportunidad 97,Cierre Ganado,12343
+98,5,Oportunidad 98,Calificación,15387
+99,22,Oportunidad 99,Calificación,23652
+100,24,Oportunidad 100,Cierre Perdido,46322
+101,1,Oportunidad 101,Cierre Perdido,33852
+102,4,Oportunidad 102,Prospección,19962
+103,6,Oportunidad 103,Cierre Ganado,16376
+104,5,Oportunidad 104,Propuesta Enviada,21386
+105,25,Oportunidad 105,Cierre Perdido,42501
+106,12,Oportunidad 106,Calificación,35373
+107,15,Oportunidad 107,Cierre Perdido,40666
+108,11,Oportunidad 108,Prospección,17740
+109,22,Oportunidad 109,Prospección,24372
+110,7,Oportunidad 110,Calificación,26860
+111,15,Oportunidad 111,Negociación,41737
+112,16,Oportunidad 112,Cierre Ganado,33592
+113,12,Oportunidad 113,Cierre Perdido,14230
+114,19,Oportunidad 114,Cierre Ganado,23119
+115,9,Oportunidad 115,Calificación,23693
+116,15,Oportunidad 116,Negociación,31593
+117,2,Oportunidad 117,Cierre Ganado,27136
+118,24,Oportunidad 118,Cierre Perdido,45633
+119,6,Oportunidad 119,Propuesta Enviada,16610
+120,10,Oportunidad 120,Calificación,41560
+121,15,Oportunidad 121,Negociación,26203
+122,2,Oportunidad 122,Cierre Perdido,10374
+123,14,Oportunidad 123,Prospección,47774
+124,10,Oportunidad 124,Cierre Perdido,25323
+125,17,Oportunidad 125,Cierre Perdido,29519
+126,11,Oportunidad 126,Propuesta Enviada,38898
+127,8,Oportunidad 127,Negociación,39089
+128,21,Oportunidad 128,Cierre Ganado,48254
+129,5,Oportunidad 129,Prospección,42914
+130,18,Oportunidad 130,Prospección,37003
+131,20,Oportunidad 131,Cierre Ganado,14886
+132,7,Oportunidad 132,Prospección,46348
+133,12,Oportunidad 133,Cierre Ganado,40515
+134,8,Oportunidad 134,Cierre Ganado,32217
+135,16,Oportunidad 135,Cierre Ganado,25069
+136,8,Oportunidad 136,Cierre Ganado,36430
+137,10,Oportunidad 137,Prospección,15086
+138,23,Oportunidad 138,Calificación,46785
+139,22,Oportunidad 139,Negociación,24130
+140,6,Oportunidad 140,Cierre Ganado,49418
+141,15,Oportunidad 141,Negociación,18410
+142,3,Oportunidad 142,Calificación,23879
+143,4,Oportunidad 143,Prospección,27872
+144,20,Oportunidad 144,Propuesta Enviada,35185
+145,5,Oportunidad 145,Prospección,14372
+146,6,Oportunidad 146,Prospección,35665
+147,24,Oportunidad 147,Cierre Ganado,49848
+148,19,Oportunidad 148,Cierre Ganado,30143
+149,12,Oportunidad 149,Calificación,38191
+150,15,Oportunidad 150,Prospección,29358
+151,14,Oportunidad 151,Propuesta Enviada,42859
+152,14,Oportunidad 152,Cierre Perdido,18201
+153,13,Oportunidad 153,Negociación,45702
+154,17,Oportunidad 154,Prospección,47405
+155,8,Oportunidad 155,Propuesta Enviada,28832
+156,16,Oportunidad 156,Cierre Perdido,42855
+157,17,Oportunidad 157,Cierre Perdido,32296
+158,10,Oportunidad 158,Cierre Ganado,49001
+159,8,Oportunidad 159,Calificación,38509
+160,18,Oportunidad 160,Negociación,20651
+161,3,Oportunidad 161,Calificación,14691
+162,4,Oportunidad 162,Prospección,48757
+163,9,Oportunidad 163,Prospección,23645
+164,10,Oportunidad 164,Negociación,20382
+165,2,Oportunidad 165,Cierre Ganado,14434
+166,5,Oportunidad 166,Propuesta Enviada,20659
+167,19,Oportunidad 167,Cierre Perdido,36592
+168,14,Oportunidad 168,Negociación,27496
+169,4,Oportunidad 169,Calificación,32871
+170,3,Oportunidad 170,Propuesta Enviada,20783
+171,12,Oportunidad 171,Calificación,20362
+172,16,Oportunidad 172,Propuesta Enviada,10388
+173,23,Oportunidad 173,Cierre Ganado,15843
+174,16,Oportunidad 174,Prospección,34604
+175,2,Oportunidad 175,Propuesta Enviada,10968
+176,14,Oportunidad 176,Prospección,28370
+177,18,Oportunidad 177,Propuesta Enviada,42555
+178,13,Oportunidad 178,Prospección,12937
+179,2,Oportunidad 179,Cierre Ganado,14055
+180,17,Oportunidad 180,Cierre Ganado,34538
+181,22,Oportunidad 181,Calificación,34656
+182,5,Oportunidad 182,Calificación,40347
+183,11,Oportunidad 183,Cierre Ganado,42106
+184,11,Oportunidad 184,Negociación,17080
+185,17,Oportunidad 185,Negociación,26732
+186,12,Oportunidad 186,Cierre Ganado,48099
+187,9,Oportunidad 187,Cierre Perdido,45922
+188,25,Oportunidad 188,Cierre Ganado,35361
+189,14,Oportunidad 189,Cierre Ganado,40830
+190,20,Oportunidad 190,Cierre Perdido,12498
+191,18,Oportunidad 191,Cierre Perdido,38697
+192,5,Oportunidad 192,Negociación,29086
+193,16,Oportunidad 193,Calificación,30139
+194,9,Oportunidad 194,Prospección,31261
+195,13,Oportunidad 195,Cierre Ganado,43233
+196,4,Oportunidad 196,Prospección,24211
+197,23,Oportunidad 197,Negociación,34577
+198,6,Oportunidad 198,Cierre Ganado,32049
+199,19,Oportunidad 199,Propuesta Enviada,13556
+200,6,Oportunidad 200,Propuesta Enviada,24616
+201,12,Oportunidad 201,Cierre Ganado,46891
+202,10,Oportunidad 202,Cierre Ganado,27398
+203,18,Oportunidad 203,Propuesta Enviada,49706
+204,25,Oportunidad 204,Propuesta Enviada,13315
+205,19,Oportunidad 205,Propuesta Enviada,32072
+206,9,Oportunidad 206,Cierre Perdido,45827
+207,18,Oportunidad 207,Cierre Perdido,38761
+208,1,Oportunidad 208,Calificación,21687
+209,10,Oportunidad 209,Cierre Perdido,13647
+210,19,Oportunidad 210,Calificación,18104
+211,7,Oportunidad 211,Propuesta Enviada,48135
+212,23,Oportunidad 212,Propuesta Enviada,15985
+213,18,Oportunidad 213,Calificación,45899
+214,6,Oportunidad 214,Prospección,42658
+215,7,Oportunidad 215,Propuesta Enviada,42282
+216,14,Oportunidad 216,Negociación,36097
+217,17,Oportunidad 217,Cierre Perdido,15408
+218,24,Oportunidad 218,Cierre Perdido,46713
+219,17,Oportunidad 219,Prospección,20149
+220,18,Oportunidad 220,Prospección,32149
+221,15,Oportunidad 221,Propuesta Enviada,21172
+222,21,Oportunidad 222,Prospección,13253
+223,6,Oportunidad 223,Prospección,18793
+224,13,Oportunidad 224,Negociación,46442
+225,21,Oportunidad 225,Cierre Ganado,17698
+226,24,Oportunidad 226,Negociación,46528
+227,24,Oportunidad 227,Prospección,46131
+228,2,Oportunidad 228,Cierre Perdido,39101
+229,21,Oportunidad 229,Propuesta Enviada,28582
+230,20,Oportunidad 230,Negociación,21976
+231,21,Oportunidad 231,Prospección,25003
+232,7,Oportunidad 232,Negociación,43917
+233,3,Oportunidad 233,Propuesta Enviada,44315
+234,16,Oportunidad 234,Propuesta Enviada,45624
+235,4,Oportunidad 235,Cierre Ganado,29460
+236,7,Oportunidad 236,Negociación,38579
+237,25,Oportunidad 237,Propuesta Enviada,27174
+238,16,Oportunidad 238,Propuesta Enviada,25599
+239,2,Oportunidad 239,Negociación,41174
+240,23,Oportunidad 240,Prospección,12840
+241,18,Oportunidad 241,Negociación,29628
+242,18,Oportunidad 242,Negociación,17371
+243,4,Oportunidad 243,Calificación,29110
+244,8,Oportunidad 244,Prospección,13824
+245,20,Oportunidad 245,Calificación,23859
+246,2,Oportunidad 246,Cierre Ganado,42283
+247,14,Oportunidad 247,Propuesta Enviada,15440
+248,18,Oportunidad 248,Cierre Perdido,36601
+249,9,Oportunidad 249,Cierre Perdido,19029
+250,8,Oportunidad 250,Cierre Ganado,40154
+251,14,Oportunidad 251,Cierre Perdido,45234
+252,3,Oportunidad 252,Propuesta Enviada,22307
+253,9,Oportunidad 253,Cierre Perdido,11258
+254,5,Oportunidad 254,Negociación,18280
+255,8,Oportunidad 255,Negociación,30610
+256,23,Oportunidad 256,Propuesta Enviada,22942
+257,8,Oportunidad 257,Prospección,41780
+258,5,Oportunidad 258,Prospección,35902
+259,6,Oportunidad 259,Cierre Ganado,29867
+260,6,Oportunidad 260,Propuesta Enviada,24115
+261,10,Oportunidad 261,Negociación,41000
+262,6,Oportunidad 262,Negociación,15141
+263,20,Oportunidad 263,Negociación,12863
+264,10,Oportunidad 264,Negociación,20849
+265,22,Oportunidad 265,Prospección,45147
+266,5,Oportunidad 266,Prospección,33833
+267,19,Oportunidad 267,Negociación,27556
+268,12,Oportunidad 268,Cierre Ganado,26077
+269,7,Oportunidad 269,Cierre Ganado,48402
+270,20,Oportunidad 270,Cierre Ganado,24099
+271,22,Oportunidad 271,Propuesta Enviada,28920
+272,9,Oportunidad 272,Prospección,11226
+273,20,Oportunidad 273,Negociación,30610
+274,24,Oportunidad 274,Calificación,16897
+275,25,Oportunidad 275,Prospección,22569
+276,16,Oportunidad 276,Propuesta Enviada,16686
+277,10,Oportunidad 277,Cierre Perdido,40069
+278,1,Oportunidad 278,Negociación,44232
+279,12,Oportunidad 279,Calificación,29984
+280,24,Oportunidad 280,Cierre Ganado,42007
+281,20,Oportunidad 281,Calificación,32992
+282,11,Oportunidad 282,Propuesta Enviada,20876
+283,13,Oportunidad 283,Cierre Ganado,34772
+284,8,Oportunidad 284,Propuesta Enviada,10817
+285,9,Oportunidad 285,Propuesta Enviada,37907
+286,1,Oportunidad 286,Cierre Perdido,29424
+287,16,Oportunidad 287,Cierre Ganado,35982
+288,4,Oportunidad 288,Prospección,42259
+289,20,Oportunidad 289,Prospección,11870
+290,19,Oportunidad 290,Calificación,23072
+291,11,Oportunidad 291,Calificación,48116
+292,20,Oportunidad 292,Cierre Perdido,46328
+293,21,Oportunidad 293,Cierre Perdido,43397
+294,15,Oportunidad 294,Cierre Perdido,26632
+295,2,Oportunidad 295,Cierre Ganado,36545
+296,25,Oportunidad 296,Prospección,48395
+297,1,Oportunidad 297,Propuesta Enviada,15480
+298,25,Oportunidad 298,Cierre Perdido,49309
+299,1,Oportunidad 299,Prospección,24285
+300,8,Oportunidad 300,Negociación,37002
+301,10,Oportunidad 301,Cierre Ganado,21949
+302,25,Oportunidad 302,Propuesta Enviada,30250
+303,5,Oportunidad 303,Calificación,47643
+304,22,Oportunidad 304,Cierre Perdido,46633
+305,16,Oportunidad 305,Prospección,34308
+306,24,Oportunidad 306,Prospección,41777
+307,20,Oportunidad 307,Propuesta Enviada,48771
+308,24,Oportunidad 308,Cierre Ganado,30770
+309,25,Oportunidad 309,Cierre Perdido,42503
+310,21,Oportunidad 310,Calificación,11767
+311,17,Oportunidad 311,Prospección,12428
+312,25,Oportunidad 312,Propuesta Enviada,10171
+313,17,Oportunidad 313,Propuesta Enviada,18111
+314,22,Oportunidad 314,Negociación,22281
+315,10,Oportunidad 315,Cierre Perdido,49315
+316,21,Oportunidad 316,Propuesta Enviada,37002
+317,9,Oportunidad 317,Prospección,35338
+318,18,Oportunidad 318,Cierre Ganado,22593
+319,25,Oportunidad 319,Cierre Perdido,27103
+320,16,Oportunidad 320,Calificación,16036
+321,5,Oportunidad 321,Cierre Perdido,43981
+322,19,Oportunidad 322,Prospección,15930
+323,25,Oportunidad 323,Cierre Ganado,38218
+324,6,Oportunidad 324,Negociación,45221
+325,7,Oportunidad 325,Prospección,23473
+326,19,Oportunidad 326,Propuesta Enviada,35826
+327,20,Oportunidad 327,Prospección,32415
+328,6,Oportunidad 328,Cierre Perdido,40440
+329,22,Oportunidad 329,Prospección,13400
+330,1,Oportunidad 330,Prospección,41539
+331,21,Oportunidad 331,Cierre Ganado,29785
+332,24,Oportunidad 332,Cierre Ganado,37334
+333,9,Oportunidad 333,Negociación,16847
+334,20,Oportunidad 334,Cierre Ganado,28793
+335,2,Oportunidad 335,Cierre Ganado,48922
+336,4,Oportunidad 336,Calificación,23303
+337,16,Oportunidad 337,Cierre Perdido,40423
+338,24,Oportunidad 338,Cierre Perdido,43127
+339,2,Oportunidad 339,Calificación,21635
+340,8,Oportunidad 340,Cierre Perdido,34001
+341,16,Oportunidad 341,Prospección,46745
+342,13,Oportunidad 342,Prospección,17534
+343,13,Oportunidad 343,Cierre Perdido,35854
+344,9,Oportunidad 344,Cierre Ganado,10789
+345,4,Oportunidad 345,Cierre Ganado,20724
+346,1,Oportunidad 346,Cierre Perdido,11741
+347,5,Oportunidad 347,Negociación,27781
+348,1,Oportunidad 348,Cierre Ganado,26353
+349,5,Oportunidad 349,Propuesta Enviada,23811
+350,12,Oportunidad 350,Propuesta Enviada,48680
+351,22,Oportunidad 351,Calificación,19805
+352,16,Oportunidad 352,Negociación,12003
+353,25,Oportunidad 353,Calificación,16929
+354,21,Oportunidad 354,Propuesta Enviada,33416
+355,4,Oportunidad 355,Cierre Ganado,10193
+356,21,Oportunidad 356,Negociación,15858
+357,12,Oportunidad 357,Propuesta Enviada,43254
+358,5,Oportunidad 358,Cierre Ganado,32776
+359,11,Oportunidad 359,Cierre Ganado,48601
+360,14,Oportunidad 360,Cierre Ganado,15018
+361,6,Oportunidad 361,Propuesta Enviada,36981
+362,9,Oportunidad 362,Propuesta Enviada,26611
+363,17,Oportunidad 363,Prospección,13973
+364,14,Oportunidad 364,Calificación,12405
+365,14,Oportunidad 365,Calificación,31209
+366,20,Oportunidad 366,Propuesta Enviada,16300
+367,24,Oportunidad 367,Prospección,26695
+368,5,Oportunidad 368,Prospección,42246
+369,8,Oportunidad 369,Cierre Perdido,38677
+370,6,Oportunidad 370,Negociación,20404
+371,14,Oportunidad 371,Cierre Perdido,22105
+372,18,Oportunidad 372,Cierre Perdido,38145
+373,6,Oportunidad 373,Cierre Ganado,35916
+374,20,Oportunidad 374,Cierre Ganado,49068
+375,14,Oportunidad 375,Cierre Ganado,49423
+376,18,Oportunidad 376,Prospección,16749
+377,18,Oportunidad 377,Propuesta Enviada,15977
+378,10,Oportunidad 378,Cierre Perdido,18523
+379,9,Oportunidad 379,Calificación,38819
+380,10,Oportunidad 380,Propuesta Enviada,35217
+381,10,Oportunidad 381,Prospección,19623
+382,3,Oportunidad 382,Negociación,40247
+383,18,Oportunidad 383,Propuesta Enviada,29338
+384,24,Oportunidad 384,Cierre Perdido,48383
+385,12,Oportunidad 385,Cierre Perdido,21106
+386,2,Oportunidad 386,Cierre Perdido,34360
+387,12,Oportunidad 387,Cierre Perdido,34410
+388,17,Oportunidad 388,Cierre Ganado,38125
+389,7,Oportunidad 389,Cierre Perdido,22299
+390,6,Oportunidad 390,Propuesta Enviada,22884
+391,22,Oportunidad 391,Cierre Ganado,32653
+392,1,Oportunidad 392,Cierre Perdido,16322
+393,12,Oportunidad 393,Calificación,33483
+394,4,Oportunidad 394,Cierre Perdido,23855
+395,1,Oportunidad 395,Propuesta Enviada,44053
+396,6,Oportunidad 396,Calificación,35639
+397,23,Oportunidad 397,Prospección,16465
+398,17,Oportunidad 398,Cierre Perdido,30638
+399,4,Oportunidad 399,Negociación,13142
+400,13,Oportunidad 400,Prospección,27353
+401,1,Oportunidad 401,Cierre Ganado,18625
+402,3,Oportunidad 402,Cierre Ganado,49764
+403,17,Oportunidad 403,Calificación,10308
+404,15,Oportunidad 404,Propuesta Enviada,49380
+405,9,Oportunidad 405,Cierre Perdido,49959
+406,6,Oportunidad 406,Prospección,38640
+407,22,Oportunidad 407,Prospección,15664
+408,21,Oportunidad 408,Propuesta Enviada,42688
+409,25,Oportunidad 409,Calificación,43853
+410,19,Oportunidad 410,Cierre Perdido,30202
+411,6,Oportunidad 411,Propuesta Enviada,31795
+412,12,Oportunidad 412,Prospección,30059
+413,10,Oportunidad 413,Propuesta Enviada,25208
+414,17,Oportunidad 414,Calificación,48569
+415,8,Oportunidad 415,Negociación,47189
+416,1,Oportunidad 416,Propuesta Enviada,20713
+417,18,Oportunidad 417,Prospección,43689
+418,6,Oportunidad 418,Calificación,49690
+419,25,Oportunidad 419,Cierre Ganado,36598
+420,5,Oportunidad 420,Prospección,13751
+421,4,Oportunidad 421,Negociación,27583
+422,13,Oportunidad 422,Calificación,40795
+423,25,Oportunidad 423,Prospección,23083
+424,7,Oportunidad 424,Cierre Ganado,23487
+425,17,Oportunidad 425,Cierre Perdido,48574
+426,11,Oportunidad 426,Cierre Perdido,11171
+427,22,Oportunidad 427,Calificación,32998
+428,5,Oportunidad 428,Propuesta Enviada,40906
+429,25,Oportunidad 429,Negociación,14717
+430,10,Oportunidad 430,Cierre Ganado,14008
+431,5,Oportunidad 431,Calificación,26742
+432,14,Oportunidad 432,Cierre Ganado,39248
+433,11,Oportunidad 433,Negociación,14218
+434,3,Oportunidad 434,Cierre Perdido,22659
+435,10,Oportunidad 435,Prospección,20268
+436,13,Oportunidad 436,Propuesta Enviada,39950
+437,18,Oportunidad 437,Calificación,36089
+438,22,Oportunidad 438,Prospección,49565
+439,8,Oportunidad 439,Cierre Ganado,27897
+440,6,Oportunidad 440,Calificación,27544
+441,4,Oportunidad 441,Negociación,35544
+442,12,Oportunidad 442,Propuesta Enviada,40997
+443,14,Oportunidad 443,Propuesta Enviada,19613
+444,5,Oportunidad 444,Calificación,17559
+445,3,Oportunidad 445,Negociación,45905
+446,7,Oportunidad 446,Prospección,16874
+447,9,Oportunidad 447,Cierre Perdido,40827
+448,8,Oportunidad 448,Calificación,41121
+449,5,Oportunidad 449,Calificación,10731
+450,16,Oportunidad 450,Cierre Ganado,46048
+451,17,Oportunidad 451,Calificación,26186
+452,22,Oportunidad 452,Cierre Ganado,24828
+453,22,Oportunidad 453,Negociación,40832
+454,9,Oportunidad 454,Cierre Perdido,29330
+455,13,Oportunidad 455,Negociación,34980
+456,20,Oportunidad 456,Cierre Ganado,13732
+457,20,Oportunidad 457,Prospección,42896
+458,4,Oportunidad 458,Propuesta Enviada,42589
+459,18,Oportunidad 459,Calificación,37697
+460,7,Oportunidad 460,Propuesta Enviada,39211
+461,23,Oportunidad 461,Cierre Perdido,38071
+462,23,Oportunidad 462,Cierre Perdido,46696
+463,2,Oportunidad 463,Calificación,11811
+464,9,Oportunidad 464,Cierre Perdido,36622
+465,14,Oportunidad 465,Propuesta Enviada,47236
+466,19,Oportunidad 466,Cierre Perdido,17024
+467,24,Oportunidad 467,Propuesta Enviada,15029
+468,2,Oportunidad 468,Cierre Ganado,36421
+469,6,Oportunidad 469,Cierre Perdido,19500
+470,17,Oportunidad 470,Calificación,29319
+471,25,Oportunidad 471,Cierre Perdido,15057
+472,6,Oportunidad 472,Negociación,25748
+473,3,Oportunidad 473,Cierre Perdido,41772
+474,20,Oportunidad 474,Calificación,19957
+475,8,Oportunidad 475,Cierre Perdido,20209
+476,24,Oportunidad 476,Negociación,19885
+477,18,Oportunidad 477,Calificación,40929
+478,24,Oportunidad 478,Propuesta Enviada,31879
+479,16,Oportunidad 479,Cierre Ganado,29771
+480,25,Oportunidad 480,Propuesta Enviada,16724
+481,9,Oportunidad 481,Cierre Ganado,26156
+482,2,Oportunidad 482,Calificación,25524
+483,7,Oportunidad 483,Prospección,39335
+484,15,Oportunidad 484,Cierre Perdido,35679
+485,4,Oportunidad 485,Prospección,49321
+486,10,Oportunidad 486,Cierre Ganado,31212
+487,12,Oportunidad 487,Propuesta Enviada,41419
+488,23,Oportunidad 488,Negociación,33729
+489,22,Oportunidad 489,Cierre Ganado,47756
+490,3,Oportunidad 490,Negociación,23654
+491,11,Oportunidad 491,Cierre Perdido,12381
+492,18,Oportunidad 492,Prospección,35084
+493,1,Oportunidad 493,Cierre Ganado,39375
+494,18,Oportunidad 494,Cierre Perdido,44322
+495,2,Oportunidad 495,Cierre Perdido,38426
+496,1,Oportunidad 496,Calificación,46241
+497,22,Oportunidad 497,Propuesta Enviada,47433
+498,1,Oportunidad 498,Cierre Perdido,28604
+499,22,Oportunidad 499,Calificación,26414
+500,24,Oportunidad 500,Negociación,25779
+501,22,Oportunidad 501,Prospección,33407
+502,16,Oportunidad 502,Propuesta Enviada,13842
+503,1,Oportunidad 503,Propuesta Enviada,15156
+504,17,Oportunidad 504,Prospección,33652
+505,18,Oportunidad 505,Cierre Ganado,26215
+506,3,Oportunidad 506,Cierre Perdido,44953
+507,22,Oportunidad 507,Propuesta Enviada,15224
+508,6,Oportunidad 508,Negociación,16662
+509,2,Oportunidad 509,Cierre Perdido,38277
+510,4,Oportunidad 510,Cierre Ganado,47373
+511,12,Oportunidad 511,Propuesta Enviada,31046
+512,4,Oportunidad 512,Calificación,18160
+513,22,Oportunidad 513,Negociación,42366
+514,7,Oportunidad 514,Cierre Perdido,17126
+515,16,Oportunidad 515,Calificación,36251
+516,18,Oportunidad 516,Propuesta Enviada,10008
+517,20,Oportunidad 517,Propuesta Enviada,35237
+518,19,Oportunidad 518,Negociación,39433
+519,23,Oportunidad 519,Calificación,21895
+520,14,Oportunidad 520,Propuesta Enviada,42896
+521,7,Oportunidad 521,Cierre Ganado,24640
+522,11,Oportunidad 522,Calificación,29548
+523,10,Oportunidad 523,Cierre Perdido,16625
+524,10,Oportunidad 524,Prospección,24624
+525,1,Oportunidad 525,Cierre Perdido,20600
+526,23,Oportunidad 526,Negociación,15101
+527,24,Oportunidad 527,Negociación,18328
+528,4,Oportunidad 528,Calificación,46773
+529,14,Oportunidad 529,Cierre Ganado,24451
+530,16,Oportunidad 530,Cierre Perdido,16378
+531,8,Oportunidad 531,Prospección,42920
+532,18,Oportunidad 532,Cierre Perdido,18847
+533,21,Oportunidad 533,Calificación,42257
+534,19,Oportunidad 534,Cierre Perdido,37809
+535,21,Oportunidad 535,Propuesta Enviada,32433
+536,1,Oportunidad 536,Cierre Perdido,12410
+537,9,Oportunidad 537,Propuesta Enviada,40045
+538,1,Oportunidad 538,Negociación,16263
+539,20,Oportunidad 539,Prospección,43275
+540,22,Oportunidad 540,Propuesta Enviada,34165
+541,13,Oportunidad 541,Negociación,34803
+542,23,Oportunidad 542,Calificación,33655
+543,19,Oportunidad 543,Propuesta Enviada,23797
+544,3,Oportunidad 544,Calificación,22016
+545,12,Oportunidad 545,Calificación,37361
+546,3,Oportunidad 546,Cierre Ganado,37335
+547,25,Oportunidad 547,Negociación,33849
+548,5,Oportunidad 548,Cierre Ganado,24899
+549,21,Oportunidad 549,Propuesta Enviada,41629
+550,25,Oportunidad 550,Calificación,12839
+551,9,Oportunidad 551,Propuesta Enviada,39878
+552,10,Oportunidad 552,Prospección,31403
+553,18,Oportunidad 553,Prospección,19299
+554,2,Oportunidad 554,Cierre Perdido,13609
+555,24,Oportunidad 555,Cierre Perdido,16963
+556,6,Oportunidad 556,Cierre Perdido,44350
+557,5,Oportunidad 557,Propuesta Enviada,37193
+558,14,Oportunidad 558,Cierre Perdido,24196
+559,3,Oportunidad 559,Cierre Ganado,46198
+560,17,Oportunidad 560,Cierre Perdido,29857
+561,2,Oportunidad 561,Cierre Perdido,15927
+562,16,Oportunidad 562,Propuesta Enviada,34283
+563,24,Oportunidad 563,Propuesta Enviada,47831
+564,13,Oportunidad 564,Negociación,17931
+565,4,Oportunidad 565,Prospección,43785
+566,23,Oportunidad 566,Cierre Ganado,17567
+567,6,Oportunidad 567,Negociación,43009
+568,19,Oportunidad 568,Propuesta Enviada,20534
+569,23,Oportunidad 569,Cierre Perdido,20233
+570,20,Oportunidad 570,Negociación,33918
+571,16,Oportunidad 571,Cierre Ganado,36092
+572,19,Oportunidad 572,Negociación,39952
+573,22,Oportunidad 573,Propuesta Enviada,36571
+574,19,Oportunidad 574,Propuesta Enviada,44468
+575,19,Oportunidad 575,Calificación,22794
+576,2,Oportunidad 576,Cierre Ganado,22263
+577,13,Oportunidad 577,Cierre Ganado,26514
+578,22,Oportunidad 578,Prospección,21357
+579,1,Oportunidad 579,Prospección,48198
+580,7,Oportunidad 580,Cierre Perdido,34649
+581,20,Oportunidad 581,Negociación,42668
+582,22,Oportunidad 582,Calificación,47021
+583,8,Oportunidad 583,Cierre Ganado,33683
+584,18,Oportunidad 584,Cierre Perdido,19557
+585,4,Oportunidad 585,Cierre Ganado,49971
+586,5,Oportunidad 586,Prospección,39934
+587,15,Oportunidad 587,Negociación,40111
+588,1,Oportunidad 588,Cierre Ganado,33253
+589,4,Oportunidad 589,Calificación,34713
+590,19,Oportunidad 590,Cierre Ganado,33798
+591,19,Oportunidad 591,Negociación,13843
+592,3,Oportunidad 592,Cierre Ganado,14078
+593,1,Oportunidad 593,Cierre Perdido,33731
+594,8,Oportunidad 594,Calificación,47569
+595,11,Oportunidad 595,Calificación,22089
+596,4,Oportunidad 596,Cierre Ganado,11888
+597,24,Oportunidad 597,Cierre Ganado,29749
+598,11,Oportunidad 598,Cierre Ganado,24283
+599,21,Oportunidad 599,Cierre Perdido,12350
+600,7,Oportunidad 600,Calificación,47126
+601,10,Oportunidad 601,Cierre Perdido,30439
+602,25,Oportunidad 602,Cierre Perdido,10536
+603,6,Oportunidad 603,Cierre Perdido,46651
+604,20,Oportunidad 604,Negociación,31251
+605,24,Oportunidad 605,Negociación,35522
+606,21,Oportunidad 606,Propuesta Enviada,18736
+607,19,Oportunidad 607,Cierre Perdido,23403
+608,10,Oportunidad 608,Cierre Ganado,37989
+609,16,Oportunidad 609,Prospección,21628
+610,18,Oportunidad 610,Calificación,19638
+611,11,Oportunidad 611,Prospección,19618
+612,23,Oportunidad 612,Calificación,33683
+613,8,Oportunidad 613,Calificación,37071
+614,7,Oportunidad 614,Calificación,26442
+615,5,Oportunidad 615,Negociación,47462
+616,19,Oportunidad 616,Calificación,24143
+617,18,Oportunidad 617,Cierre Ganado,41917
+618,6,Oportunidad 618,Cierre Perdido,42663
+619,11,Oportunidad 619,Cierre Ganado,10089
+620,18,Oportunidad 620,Cierre Ganado,18333
+621,23,Oportunidad 621,Calificación,20628
+622,22,Oportunidad 622,Prospección,48660
+623,25,Oportunidad 623,Negociación,40951
+624,6,Oportunidad 624,Prospección,36289
+625,19,Oportunidad 625,Propuesta Enviada,47473
+626,14,Oportunidad 626,Negociación,32441
+627,2,Oportunidad 627,Cierre Ganado,16245
+628,13,Oportunidad 628,Prospección,22334
+629,9,Oportunidad 629,Cierre Perdido,30992
+630,24,Oportunidad 630,Cierre Perdido,10185
+631,9,Oportunidad 631,Prospección,38479
+632,20,Oportunidad 632,Negociación,48646
+633,21,Oportunidad 633,Calificación,48258
+634,9,Oportunidad 634,Calificación,33644
+635,21,Oportunidad 635,Calificación,33059
+636,17,Oportunidad 636,Cierre Ganado,42649
+637,8,Oportunidad 637,Cierre Ganado,28248
+638,21,Oportunidad 638,Calificación,20575
+639,24,Oportunidad 639,Cierre Ganado,10139
+640,12,Oportunidad 640,Cierre Ganado,48310
+641,21,Oportunidad 641,Prospección,44490
+642,17,Oportunidad 642,Cierre Ganado,25551
+643,22,Oportunidad 643,Cierre Ganado,37315
+644,4,Oportunidad 644,Prospección,43761
+645,9,Oportunidad 645,Prospección,42983
+646,7,Oportunidad 646,Prospección,22780
+647,20,Oportunidad 647,Cierre Ganado,15062
+648,3,Oportunidad 648,Negociación,24858
+649,15,Oportunidad 649,Cierre Ganado,33187
+650,15,Oportunidad 650,Cierre Ganado,19930
+651,12,Oportunidad 651,Calificación,12843
+652,25,Oportunidad 652,Calificación,27822
+653,21,Oportunidad 653,Cierre Perdido,33364
+654,16,Oportunidad 654,Cierre Perdido,13242
+655,12,Oportunidad 655,Cierre Ganado,10675
+656,11,Oportunidad 656,Calificación,44344
+657,3,Oportunidad 657,Prospección,28658
+658,20,Oportunidad 658,Prospección,39564
+659,9,Oportunidad 659,Prospección,32913
+660,2,Oportunidad 660,Cierre Ganado,32556
+661,6,Oportunidad 661,Cierre Perdido,40072
+662,6,Oportunidad 662,Propuesta Enviada,26642
+663,4,Oportunidad 663,Calificación,32641
+664,8,Oportunidad 664,Negociación,17607
+665,13,Oportunidad 665,Calificación,19683
+666,12,Oportunidad 666,Calificación,45976
+667,13,Oportunidad 667,Calificación,21534
+668,3,Oportunidad 668,Calificación,36616
+669,6,Oportunidad 669,Cierre Perdido,44126
+670,13,Oportunidad 670,Propuesta Enviada,31723
+671,1,Oportunidad 671,Calificación,48870
+672,18,Oportunidad 672,Cierre Ganado,13830
+673,13,Oportunidad 673,Prospección,28030
+674,16,Oportunidad 674,Prospección,20867
+675,12,Oportunidad 675,Negociación,45948
+676,11,Oportunidad 676,Prospección,15447
+677,8,Oportunidad 677,Negociación,49135
+678,21,Oportunidad 678,Negociación,32393
+679,2,Oportunidad 679,Cierre Perdido,17999
+680,24,Oportunidad 680,Propuesta Enviada,42709
+681,25,Oportunidad 681,Negociación,11984
+682,21,Oportunidad 682,Propuesta Enviada,32869
+683,18,Oportunidad 683,Negociación,21172
+684,3,Oportunidad 684,Propuesta Enviada,26794
+685,13,Oportunidad 685,Negociación,36196
+686,8,Oportunidad 686,Negociación,24395
+687,16,Oportunidad 687,Calificación,28746
+688,1,Oportunidad 688,Calificación,31508
+689,11,Oportunidad 689,Cierre Perdido,25616
+690,16,Oportunidad 690,Calificación,49165
+691,7,Oportunidad 691,Propuesta Enviada,27692
+692,25,Oportunidad 692,Calificación,47383
+693,19,Oportunidad 693,Negociación,33445
+694,22,Oportunidad 694,Cierre Perdido,34303
+695,7,Oportunidad 695,Cierre Perdido,29085
+696,9,Oportunidad 696,Cierre Ganado,30697
+697,24,Oportunidad 697,Negociación,45286
+698,8,Oportunidad 698,Prospección,28374
+699,14,Oportunidad 699,Prospección,23089
+700,11,Oportunidad 700,Cierre Perdido,26070
