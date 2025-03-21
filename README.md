@@ -1,5 +1,9 @@
  ![Logo](https://i.pinimg.com/1200x/7f/45/95/7f4595bfe7e80086c681bc22ddd08a94.jpg)
  
+ [Presentación en Google Slides](https://docs.google.com/presentation/d/1KKGWE4ms_TpxzEccp8lJcyM-uEYA0WyRpGJgeumzTgs/edit?usp=sharing)
+
+ 
+
  **Capítulo II: Estructura Organizacional**
 
 
